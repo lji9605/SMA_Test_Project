@@ -6,8 +6,8 @@
 
 ## 개발 환경
 
-- Oracle JDK 11.0.10
-  - [Download](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- Oracle JDK 13.0.2
+  - [Download](https://www.oracle.com/java/technologies/javase/jdk13-archive-downloads.html)
 - Gradle 6.8
   - [Download](https://gradle.org/releases/#6.8)
   - 'binary-only' 로 사용해도 무관합니다.
@@ -20,7 +20,7 @@
 
 #### 1. 다운로드 받습니다.
 
-- 버전 11.0.10 임을 확인합니다.
+- 버전 13.0.2 임을 확인합니다.
 
 #### 2. 환경변수를 변경합니다.
 
@@ -29,7 +29,7 @@
 
 ```
 A. 설치된 Java의 디렉토리를 확인합니다.
-(C:\Program Files\Java\jdk11.0.10)
+(C:\Program Files\Java\jdk13.0.2)
 B. Win + Q키를 동시에 누르고 '시스템 환경 변수 편집' 검색
 C. 시스템 속성 창의 우측 하단에 '환경 변수' 클릭
 D. JAVA_HOME을 A단계에서 확인한 경로로 바꾸어 줍니다.
