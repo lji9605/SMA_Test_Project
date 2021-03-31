@@ -27,16 +27,14 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
 }
 
+
 application {
     // Define the main class for the application.
     mainClass = 'SMA_Test_Project.App'
 }
 
-tasks.named('test') {
-    // Use junit platform for unit tests.
+// Test Script
+test {
     useJUnitPlatform()
 }
 
-task wrapper(type: Wrapper){
-    gradleVersion = '6.8'
-}
